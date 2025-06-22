@@ -1,0 +1,84 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: white;
+    color: black;
+    scroll-behavior: smooth;
+}
+
+header {
+    background: #007BFF;
+    color: white;
+    padding: 2em;
+    text-align: center;
+}
+
+.hero {
+    background: #f0f8ff;
+    text-align: center;
+    padding: 4em 2em;
+    animation: fadeIn 2s ease-in-out;
+}
+
+.hero img {
+    width: 200px;
+    margin-top: 1em;
+}
+
+.pedido {
+    background: #ffffff;
+    padding: 3em 2em;
+    text-align: center;
+    animation: slideUp 2s ease-in-out;
+}
+
+input[type="text"] {
+    padding: 0.8em;
+    width: 80%;
+    max-width: 400px;
+    margin-bottom: 1em;
+    border: 2px solid #007BFF;
+    border-radius: 5px;
+}
+
+button {
+    padding: 1em 2em;
+    background: #000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    background: #000;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    font-size: 0.9em;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-20px);}
+    to { opacity: 1; transform: translateY(0);}
+}
+
+@keyframes slideUp {
+    from { opacity: 0; transform: translateY(20px);}
+    to { opacity: 1; transform: translateY(0);}
+}
+
+.preco {
+    font-size: 1.5em;
+    color: #007BFF;
+    margin-top: 1em;
+}
+
+.pix {
+    margin-top: 2em;
+    background: #f0f8ff;
+    padding: 1em;
+    border-radius: 10px;
+    display: inline-block;
+}
